@@ -1,0 +1,138 @@
+/*
+ * Globals
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Gloock&family=Inter:wght@900&family=Lobster&family=Permanent+Marker&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+ 
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+
+/*
+ * Base structure
+ */
+
+body {
+  min-height: 100%;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+
+/*
+ * Header
+ */
+
+.nav-masthead .nav-link {
+  margin-top: 1rem;
+  size: 25cm;
+  padding: .25rem 0;
+  font-weight: 700;
+  color: #fff;
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;  
+  font-family:Arial, Helvetica, sans-serif;
+
+
+
+
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: black;
+}
+
+.nav-masthead .nav-link + .nav-link {
+  font-family: 'Secular One', sans-serif;
+
+
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+/*Body*/
+#cara{
+  border-radius: 50%;
+  margin-top: -6rem;
+  margin-left: -14rem;
+}
+.titulo{
+  margin-left: -16rem;
+} 
+
+
+.cartel{
+ margin-top: 3rem;
+ margin-left: 35rem;
+ text-align: center; 
+ justify-content: center;
+ display: flex;
+ width: 25%;
+ padding: 5rem;
+ background-color: #170555;
+ -webkit-box-shadow: 32px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 32px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 32px 10px 5px 0px rgba(0,0,0,0.75);
+border-radius: 10%;
+
+
+}
+
+h1,h2,p,a,label,h4,h5{
+  font-family: 'Righteous', cursive;
+  color: #f8f9fa;
+
+}
+
+.datos{
+  width: 600px;
+  padding: 1rem;
+  border-radius: 10%;
+  margin-left: 10rem;
+  background-color: #170555;
+  -webkit-box-shadow: 32px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 32px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 32px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+.mover{
+  padding: 1rem;
+  margin-left: 25rem;
+  margin-top: 2rem;
+  text-align: center;
+  justify-content: center;
+ }
+ #habilidades{
+  display: table-caption;
+ }
+.orden{
+  padding: 2rem;
+}
+/*Footer*/
+ #encabezado{
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 8%; 
+  position:absolute; 
+  bottom:0; 
+  left:0; 
+ }
